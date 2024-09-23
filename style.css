@@ -1,0 +1,276 @@
+body {
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url(https://png.pngtree.com/background/20230524/original/pngtree-dark-black-bedroom-with-big-bed-and-lamps-picture-image_2715195.jpg) no-repeat center center/cover;
+    height: 100;
+    color: white;
+}
+
+nav {
+    display: 100vh;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.book-btn {
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    font-size: 20px;
+}
+
+.booking-form {
+    margin-top: 20px;
+}
+
+.booking-form input, .booking-form select, .booking-form button  {
+    padding: 10px;
+    margin: 5px;
+}
+
+.booking-form button {
+    background-color: orange;
+    color: white;
+    border:  none;
+    cursor: pointer;
+}
+
+.about-us {
+    padding: 50px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 36px;
+}
+
+.about-us p {
+    font-size: 16px;
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.about-images img {
+    margin: 0 10px;
+    width: 200px;
+    height: auto;
+}
+
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px;
+    gap: 20px;
+}
+
+.feature {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 24px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #555;
+}
+
+.room-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.room-card {
+    width: 22%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.room-card img {
+    width: 100;
+    height: auto; 
+}
+
+.room-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.testimoial-section {
+    padding: 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimoial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.testimoial p {
+    margin: 10px 0;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 30px;
+    background-color: #f8f9fa;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color:  #0056b3;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 2em;
+}
+
+section {
+    padding: 20px;
+}
+
+#gellery .gellery-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+
+#gellery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#blog .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+#blog article {
+    text-align: center;
+}
+
+#blog img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#blog h3 {
+    margin: 10px 0;
+}
+
+#blog a{
+    text-decoration: none;
+    color: #ff9800;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    margin-bottom: 20px;
+}
+
+footer .newsietter form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border-radius: 4px;
+    border: none;
+}
+
+footer button {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+footer .footer-links {
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ff9800;
+    text-decoration: none;
+    margin: 0 10px;
+}
